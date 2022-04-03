@@ -294,7 +294,7 @@ void Setup()
     actualMineRemain = 40;
     mineRemain = 40;
     nof = 0;
-    for (int i=0; i<12; i++){
+    for (int i=0; i<14; i++){
         for (int j = 0; j<14; j++){
             mineField[i][j] = 0;
         }
@@ -302,7 +302,7 @@ void Setup()
     int x = 0;
     int y = 0;
     srand(time(NULL));
-    for (int i=0; i<actualMineRemain; i++){
+    for (int i=0; i<40; i++){
         do{
             x = rand() % 13 + 0;
             y = rand() % 13 + 0;
